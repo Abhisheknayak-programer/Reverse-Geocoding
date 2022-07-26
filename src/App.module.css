@@ -1,0 +1,10 @@
+.first_Section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mainSection {
+  /* background: url("./assets/bg1.webp") center center/cover; */
+  /* background: url("./assets/bg3.jpg") center center/cover; */
+  background: url("./assets/bg2.jpg") center center/cover;
+}

@@ -1,0 +1,28 @@
+.button {
+  font-size: 18px;
+  border: none;
+  font-weight: 500;
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 10px 20px;
+  background-image: linear-gradient(
+    111.1deg,
+    rgba(0, 40, 70, 1) -4.8%,
+    rgba(255, 115, 115, 1) 82.7%,
+    rgba(255, 175, 123, 1) 97.2%
+  );
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  background: linear-gradient(121deg, #ff0000 0%, #ff0000 100%),
+    linear-gradient(140deg, #ff5454 27%, #223dcb 100%),
+    linear-gradient(140deg, #4e9c51 0%, #001aff 72%),
+    linear-gradient(64deg, #6e00ff 0%, #0038ff 100%),
+    radial-gradient(52% 101.79% at 50% 50%, #707300 0%, #ff0000 100%),
+    radial-gradient(100% 100% at 70% 0%, #7a3b00 0%, #1dac92 100%);
+  background-blend-mode: overlay, overlay, difference, difference, color-burn,
+    exclusion;
+  transform: scale(1.3);
+}
