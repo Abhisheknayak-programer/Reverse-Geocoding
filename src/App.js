@@ -16,7 +16,7 @@ const App = () => {
 
   // GET THE LOCATION DETAILS
   const checkLocationDetails = async (lat, lng) => {
-    const url = `http://geocode.xyz/${lat},${lng}?geoit=json`;
+    const url = `https://geocode.xyz/${lat},${lng}?geoit=json`;
     const geoResponse = await fetch(url);
     const data = await geoResponse.json();
     console.log(data);
