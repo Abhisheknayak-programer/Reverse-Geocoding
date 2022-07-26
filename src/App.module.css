@@ -4,7 +4,12 @@
 }
 
 .mainSection {
-  /* background: url("./assets/bg1.webp") center center/cover; */
   /* background: url("./assets/bg3.jpg") center center/cover; */
   background: url("./assets/bg2.jpg") center center/cover;
+}
+
+@media (max-width: 576px) {
+  .mainSection {
+    background: url("./assets/bg1.webp") center center/cover;
+  }
 }
